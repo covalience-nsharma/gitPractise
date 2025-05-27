@@ -42,14 +42,9 @@ jobs:
         # Token for the repository. Can be passed in using {{ secrets.GITHUB_TOKEN }}
         #repo-token: 
         # Comment to post on an individual's first issue
-          issue-message: |
-            👋 Hi there! Thanks for opening your first issue in this project.
-            We appreciate your contribution. A maintainer will review it soon.
+          issue-message: | 
+            'Hi there! Thanks for opening your first issue in this project. We appreciate your contribution. A maintainer will review it soon.'
 
         # Comment to post on an individual's first pull request
-          pr-message: |
-            🎉 Thanks for your first pull request!
-            We’re excited to have you contribute. A reviewer will take a look shortly.
-            If you haven’t already, please make sure to follow our contribution guidelines.
-
-            
+          pr-message: | 
+            'Thanks for your first pull request! We’re excited to have you contribute. A reviewer will take a look shortly. If you haven’t already, please make sure to follow our contribution guidelines.'
