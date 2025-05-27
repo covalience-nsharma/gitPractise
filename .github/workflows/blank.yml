@@ -40,7 +40,7 @@ jobs:
         with: 
           token: ${{ secrets.MY_CUSTOM_TOKEN }}
         # Token for the repository. Can be passed in using {{ secrets.GITHUB_TOKEN }}
-        #repo-token: 
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
         # Comment to post on an individual's first issue
           issue-message: | 
             'Hi there! Thanks for opening your first issue in this project. We appreciate your contribution. A maintainer will review it soon.'
